@@ -1,13 +1,10 @@
 # 🐳 Docker Compose Exercises
 
-![Docker Compose banner](9.Pictures/DockerCompose.png)
-
 <p align="center">
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker">
-  <img src="https://img.shields.io/badge/Compose-1D63ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker Compose">
-  <img src="https://img.shields.io/badge/SoftUni-Containers%20%26%20Cloud-234465?style=for-the-badge" alt="SoftUni Containers and Cloud">
-  <img src="https://img.shields.io/badge/Exercises-9%20completed-2EA44F?style=for-the-badge" alt="9 exercises completed">
+  <img src="9.Pictures/DockerCompose.png" alt="Docker Compose banner" width="900">
 </p>
+
+
 
 <p align="center">
   <strong>Build images. Connect services. Keep data. Run applications.</strong><br>
@@ -251,48 +248,6 @@ Run Compose commands from the directory containing the application's Compose fil
 | View disk usage | `docker system df` |
 
 Stopping containers preserves them and their data. Images are stored templates, not running processes. The standalone `docker run --name ...` examples assume those container names are unused; use `docker start` for existing stopped containers instead of creating duplicates.
-
-## 📸 Execution gallery
-
-### MariaDB · SQL from a separate client container
-
-![MariaDB server and client verification](9.Pictures/1.MariaDB.png)
-
-### TaskBoard · Image publishing and container networking
-
-![TaskBoard image on Docker Hub](<9.Pictures/2. TaskBoard-hub.png>)
-
-![TaskBoard task created through the containerized application](9.Pictures/4.localhost08081-DONE.png)
-
-### Tracker · Vue served by NGINX
-
-![Tracker App with a newly added task](<9.Pictures/3. Tracker-App.png>)
-
-### TODO · React, Node.js and MongoDB
-
-![TODO application verification](9.Pictures/5.Todo-React.png)
-
-### TaskBoard · Docker Compose startup
-
-![TaskBoard Compose startup and healthcheck](<9.Pictures/6.Docker Compose Terminal.png>)
-
-### Blue vs Green · Voting and live results
-
-![Blue vs Green running services](9.Pictures/7.Green-Blue-Terminal.png)
-
-![Blue vs Green voting interface](9.Pictures/7.Green-Blue-Vote.png)
-
-![Blue vs Green results](9.Pictures/7.Green-Blue.png)
-
-### Reseller · Spring Boot and MySQL
-
-![Reseller Compose startup](9.Pictures/8.Reseller-Terminal.png)
-
-![Reseller application verification](9.Pictures/8.Reseller-Test.png)
-
-### Simple Page · Django and Gunicorn
-
-![Simple Page running in Docker](9.Pictures/9.Simple-Page.png)
 
 ---
 
